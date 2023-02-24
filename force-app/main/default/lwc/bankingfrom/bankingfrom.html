@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Banking Edit Form">
+
+        <lightning-record-edit-form
+            record-id="0015i00000WdUDxAAN"
+            object-api-name="Account"
+        >
+            <lightning-messages> </lightning-messages>
+            <lightning-output-field field-name="AccountId">
+            </lightning-output-field>
+            
+            <lightning-input-field field-name="AccountNumber"> </lightning-input-field>
+            <lightning-input-field field-name="Name"> </lightning-input-field>
+            <lightning-input-field field-name="Deposit__c"> </lightning-input-field>
+            <lightning-input-field field-name="With_Draw__c"> </lightning-input-field>
+            <lightning-input-field field-name="Phone"> </lightning-input-field>
+            <lightning-input-field field-name="Type"> </lightning-input-field>
+    
+            <lightning-input-field field-name="Amount__c"> </lightning-input-field>
+            <lightning-input-field field-name="Email__c"> </lightning-input-field>
+            <lightning-button
+                class="slds-m-top_small"
+                variant="brand"
+                type="submit"
+                name="update"
+                label="Update"
+            >
+            </lightning-button>
+        </lightning-record-edit-form>
+    
+        </lightning-card>
+    </template>
